@@ -58,7 +58,7 @@
       {
          "bridgesExtrusionProfile" : "bridges",
          "feedDiameter" : 1.769999980926514,
-         "feedstockMultiplier" : 0.960,
+         "feedstockMultiplier" : 0.980,
          "firstLayerExtrusionProfile" : "firstLayer",
          "firstLayerRaftExtrusionProfile" : "firstLayerRaft",
          "floorSurfaceFillsExtrusionProfile" : "floorSurfaceFills",
@@ -90,7 +90,7 @@
       {
          "bridgesExtrusionProfile" : "bridges",
          "feedDiameter" : 1.769999980926514,
-         "feedstockMultiplier" : 0.960,
+         "feedstockMultiplier" : 0.980,
          "firstLayerExtrusionProfile" : "firstLayer",
          "firstLayerRaftExtrusionProfile" : "firstLayerRaft",
          "floorSurfaceFillsExtrusionProfile" : "floorSurfaceFills",
@@ -129,7 +129,7 @@
       },
       "firstLayer" : {
          "fanSpeed" : 0.50,
-         "feedrate" : 30.0
+         "feedrate" : 10.0
       },
       "firstLayerRaft" : {
          "fanSpeed" : 0.50,
@@ -169,7 +169,7 @@
       }
    },
    "fanDefaultSpeed" : 1.0,
-   "fanLayer" : 1,
+   "fanLayer" : 0,
    "fanModulationThreshold" : 0.50,
    "fanModulationWindow" : 0.10,
    "fixedLayerStartX" : 0.0,
@@ -200,7 +200,7 @@
    "minThickInfillImprovement" : 1.0,
    "modelFillProfiles" : {},
    "numberOfShells" : 2,
-   "platformTemp" : 40,
+   "platformTemp" : 55,
    "purgeBucketSide" : 4.0,
    "purgeWallBaseFilamentWidth" : 2.0,
    "purgeWallBasePatternLength" : 10.0,
