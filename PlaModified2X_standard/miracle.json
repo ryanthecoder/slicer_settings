@@ -58,7 +58,7 @@
       {
          "bridgesExtrusionProfile" : "bridges",
          "feedDiameter" : 1.769999980926514,
-         "feedstockMultiplier" : 0.980,
+         "feedstockMultiplier" : 1,
          "firstLayerExtrusionProfile" : "firstLayer",
          "firstLayerRaftExtrusionProfile" : "firstLayerRaft",
          "floorSurfaceFillsExtrusionProfile" : "floorSurfaceFills",
@@ -82,7 +82,7 @@
          "retractRate2" : 50,
          "roofSurfaceFillsExtrusionProfile" : "roofSurfaceFills",
          "sparseRoofSurfaceFillsExtrusionProfile" : "sparseRoofSurfaceFills",
-         "toolchangeRestartDistance" : 18.50,
+         "toolchangeRestartDistance" : 20.0,
          "toolchangeRestartRate" : 6.0,
          "toolchangeRetractDistance" : 19.0,
          "toolchangeRetractRate" : 6.0
@@ -90,7 +90,7 @@
       {
          "bridgesExtrusionProfile" : "bridges",
          "feedDiameter" : 1.769999980926514,
-         "feedstockMultiplier" : 0.980,
+         "feedstockMultiplier" : 1,
          "firstLayerExtrusionProfile" : "firstLayer",
          "firstLayerRaftExtrusionProfile" : "firstLayerRaft",
          "floorSurfaceFillsExtrusionProfile" : "floorSurfaceFills",
@@ -114,7 +114,7 @@
          "retractRate2" : 50,
          "roofSurfaceFillsExtrusionProfile" : "roofSurfaceFills",
          "sparseRoofSurfaceFillsExtrusionProfile" : "sparseRoofSurfaceFills",
-         "toolchangeRestartDistance" : 18.50,
+         "toolchangeRestartDistance" : 20.0,
          "toolchangeRestartRate" : 6.0,
          "toolchangeRetractDistance" : 19.0,
          "toolchangeRetractRate" : 6.0
@@ -145,11 +145,11 @@
       },
       "insets" : {
          "fanSpeed" : 0.50,
-         "feedrate" : 90.0
+         "feedrate" : 70.0
       },
       "outlines" : {
          "fanSpeed" : 0.50,
-         "feedrate" : 40.0
+         "feedrate" : 30.0
       },
       "raft" : {
          "fanSpeed" : 0.50,
@@ -161,15 +161,15 @@
       },
       "roofSurfaceFills" : {
          "fanSpeed" : 0.50,
-         "feedrate" : 90.0
+         "feedrate" : 40.0
       },
       "sparseRoofSurfaceFills" : {
          "fanSpeed" : 0.50,
-         "feedrate" : 90.0
+         "feedrate" : 40.0
       }
    },
    "fanDefaultSpeed" : 1.0,
-   "fanLayer" : 0,
+   "fanLayer" : 1,
    "fanModulationThreshold" : 0.50,
    "fanModulationWindow" : 0.10,
    "fixedLayerStartX" : 0.0,
